@@ -1,0 +1,92 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# PyTorch
+*.pth
+*.ckpt
+*.pt
+*.safetensors
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# Training outputs
+outputs/
+checkpoints/
+logs/
+wandb/
+swanlab/
+runs/
+
+# Datasets
+lewm-pusht/
+lewm/
+data/
+datasets/
+*.hdf5
+*.h5
+
+# Cache
+.cache/
+*.cache
+.pytest_cache/
+
+# Environment files
+environment.json
+environment.yml.lock
+requirements_frozen.txt
+
+# Temporary files
+*.tmp
+*.log
+*.png
+*.jpg
+*.jpeg
+pusht_ep0.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model artifacts
+*.pkl
+*.pickle
+*.bin
+
+# Experiment outputs
+notebooks/
+experiments/
+results/
